@@ -12,6 +12,10 @@ Plug 'yuezk/vim-js'
 " Autocomplete
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
+" Snippets
+Plug 'SirVer/ultisnips', {'for': ['sh', 'python', 'markdown']}
+Plug 'honza/vim-snippets', {'for': ['sh', 'python', 'markdown']}
+
 "IDE
 Plug 'easymotion/vim-easymotion'
 Plug 'scrooloose/nerdtree'
