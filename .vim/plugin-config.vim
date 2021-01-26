@@ -1,4 +1,5 @@
 
+let g:gruvbox_contrast_dark = 'dark'
 let NERDTreeQuitOnOpen=1
 
 let g:closetag_filenames = '*.html,*.js,*.jsx,*.ts,*.tsx'

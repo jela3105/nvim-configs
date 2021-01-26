@@ -13,9 +13,12 @@ set relativenumber
 so ~/.vim/plugins.vim
 so ~/.vim/plugin-config.vim
 so ~/.vim/maps.vim
+so ~/.vim/snippets.vim
 
 set laststatus=2
+
+
+let g:gruvbox_contrast_dark = 'dark'
 colorscheme gruvbox
-let g:gruvbox_contrast_dark = "hard"
 
 

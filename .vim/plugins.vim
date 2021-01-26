@@ -22,6 +22,7 @@ Plug 'scrooloose/nerdtree'
 Plug 'christoomey/vim-tmux-navigator'
 Plug 'itchyny/lightline.vim'
 Plug 'maximbaz/lightline-ale'
+Plug 'mg979/vim-visual-multi', {'branch': 'master'}
 
 call plug#end()
 
