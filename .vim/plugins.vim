@@ -13,8 +13,8 @@ Plug 'yuezk/vim-js'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 " Snippets
-Plug 'SirVer/ultisnips', {'for': ['sh', 'python', 'markdown']}
-Plug 'honza/vim-snippets', {'for': ['sh', 'python', 'markdown']}
+Plug 'SirVer/ultisnips'
+Plug 'honza/vim-snippets'
 
 "IDE
 Plug 'easymotion/vim-easymotion'
