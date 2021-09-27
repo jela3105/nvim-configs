@@ -1,2 +1,2 @@
 # vim-configs
-My confings to use vim as text editor
+My confings to use nvim as text editor
