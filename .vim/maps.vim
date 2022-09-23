@@ -19,19 +19,9 @@ if has('nvim')
 else
   inoremap <silent><expr> <c-@> coc#refresh()
 endif
-" use kite or coc in javascript files
-if &filetype == "javascript" || &filetype == "python"
-  inoremap <c-space> <C-x><C-u>
-else
-  inoremap <silent><expr> <C-x><C-u>
-endif
 
-" coc
-autocmd FileType python let b:coc_suggest_disable = 1
-autocmd FileType javascript let b:coc_suggest_disable = 1
-
+" Maps Leader
 nmap <Leader>s <Plug>(easymotion-s2)
-nmap <Leader>nt :NERDTreeFind<CR>
 nmap <Leader>w :w<CR>
 nmap <Leader>q :q<CR>
 
@@ -39,9 +29,3 @@ nmap <Leader>q :q<CR>
 nmap <silent> gd <Plug>(coc-definition)
 nmap <silent> gr <Plug>(coc-references)
 
-"For flutter code action
-nmap <leader>a  <Plug>(coc-codeaction-selected)
-" Make work hot reload flutter
-nmap <Leader>fs :CocCommand flutter.run<CR>
-nmap <Leader>fr :CocCommand flutter.dev.hotRestart<CR> 
-nmap <Leader>fl :CocCommand flutter.dev.openDevLog<CR>

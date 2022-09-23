@@ -18,6 +18,5 @@ so ~/AppData/Local/nvim/.vim/snippets.vim
 set laststatus=2
 
 
-let g:gruvbox_contrast_dark = 'dark'
 
 
