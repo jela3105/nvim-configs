@@ -24,6 +24,8 @@ endif
 nmap <Leader>s <Plug>(easymotion-s2)
 nmap <Leader>w :w<CR>
 nmap <Leader>q :q<CR>
+nmap <Leader>s <Plug>(easymotion-s2)
+nmap <Leader>nt :NERDTreeToggle<CR>
 
 " GoTo code navigation.
 nmap <silent> gd <Plug>(coc-definition)
