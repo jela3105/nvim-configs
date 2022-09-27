@@ -4,6 +4,8 @@ call plug#begin('~/AppData/Local/nvim/.vim/plugged')
 "syntax highlighting and theme 
 Plug 'yggdroot/indentline'
 Plug 'sheerun/vim-polyglot'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 Plug 'ryanoasis/vim-devicons'
 
 "navigation

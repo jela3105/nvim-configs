@@ -10,3 +10,6 @@ let g:coc_global_extensions = [
   \ 'coc-json', 
   \ 'coc-html',
   \ ]
+
+"airline
+let g:airline_powerline_fonts = 1
