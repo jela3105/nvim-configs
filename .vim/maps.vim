@@ -17,7 +17,10 @@ nmap <Leader>s <Plug>(easymotion-s2)
 nmap <Leader>w :w<CR>
 nmap <Leader>q :q<CR>
 nmap <Leader>s <Plug>(easymotion-s2)
-nmap <Leader>nt :NERDTreeToggle<CR>
+nmap <Leader>nt :NERDTreeFind<CR>
+noremap <Leader>vt :botright vnew <Bar> :terminal <CR>
+noremap <Leader>ht :botright new <Bar> :terminal <CR>
+:tnoremap <Esc> <C-\><C-n>
  
 "Maps for coc
 nmap <silent> gd <Plug>(coc-definition)
@@ -31,4 +34,3 @@ inoremap <silent><expr> <CR> coc#pum#visible() ? coc#pum#confirm()
 " GoTo code navigation.
 nmap <silent> gd <Plug>(coc-definition)
 nmap <silent> gr <Plug>(coc-references)
-

@@ -17,4 +17,3 @@ so ~/AppData/Local/nvim/.vim/maps.vim
 so ~/AppData/Local/nvim/.vim/snippets.vim
 
 set laststatus=2
-

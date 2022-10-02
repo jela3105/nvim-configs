@@ -8,8 +8,11 @@ let g:coc_global_extensions = [
   \ 'coc-eslint', 
   \ 'coc-prettier', 
   \ 'coc-json', 
-  \ 'coc-html',
+  \ 'coc-html'
   \ ]
 
 "airline
 let g:airline_powerline_fonts = 1
+
+" UltiSnips 
+let g:UltiSnipsExpandTrigger='<tab>'
