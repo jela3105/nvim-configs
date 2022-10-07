@@ -16,3 +16,6 @@ let g:airline_powerline_fonts = 1
 
 " UltiSnips 
 let g:UltiSnipsExpandTrigger='<tab>'
+
+" gruvbox
+let g:gruvbox_contrast_dark = 'hard'
