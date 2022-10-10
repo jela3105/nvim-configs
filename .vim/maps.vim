@@ -12,7 +12,6 @@ else
   inoremap <silent><expr> <c-@> coc#refresh()
 endif
 
-" Maps Leader
 nmap <Leader>s <Plug>(easymotion-s2)
 nmap <Leader>w :w<CR>
 nmap <Leader>q :q<CR>
@@ -34,3 +33,7 @@ inoremap <silent><expr> <CR> coc#pum#visible() ? coc#pum#confirm()
 " GoTo code navigation.
 nmap <silent> gd <Plug>(coc-definition)
 nmap <silent> gr <Plug>(coc-references)
+
+"Fzf
+nmap <Leader>fzf :FZF<CR>
+nmap <Leader>f :Files<CR>
