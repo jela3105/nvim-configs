@@ -3,22 +3,23 @@ My confings to use nvim as text editor
 
 ## Instructios for windows
 
-instalar nodejs (al momento de instalar dejar instalar python)
-instalar yarn 
-correr pip3 install neovim
+install nodejs (al momento de instalar dejar instalar python y chocolatelly)
+install yarn 
+run pip3 install neovim
+run choco install neovim
 
-Agregar firacode NF como font en terminal: https://github.com/ryanoasis/nerd-fonts/blob/master/patched-fonts/FiraCode/Regular/complete/Fira%20Code%20Regular%20Nerd%20Font%20Complete%20Windows%20Compatible.ttf
+Add firacode NF as font in terminal: https://github.com/ryanoasis/nerd-fonts/blob/master/patched-fonts/FiraCode/Regular/complete/Fira%20Code%20Regular%20Nerd%20Font%20Complete%20Windows%20Compatible.ttf
 
-clonar repositorio en c/:users/(user)/appdata/local
+clone repositorio in c/:users/(user)/appdata/local
 
-cambiar nombre de proyecto a nvim
+change the name of the project to nvim
 
-instalar vim-plug
+install vim-plug
 	https://github.com/junegunn/vim-plug
 
-Correr :Plug Install
-Abrir .vim/plugged/coc.nvim/ y correr yarn install
-	En caso de que no se pueda correr en powersheel por estar restringido correr
-		Set-ExecutionPolicy unrestricted
-	Volver a intentar correr yarn install
+run :PlugInstall
+open .vim/plugged/coc.nvim/ and yarn install
+	
+In case in can't run in powershell for being restricted run Set-ExecutionPolicy unrestricted
+run again yarn install
 
