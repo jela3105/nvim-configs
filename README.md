@@ -22,3 +22,27 @@ My confings to use nvim as text editor
 *In case in can't run in powershell for being restricted run ``Set-ExecutionPolicy unrestricted`` and
 run again ``yarn install``
 
+## Instuctions for Linux (Debian)
+### Pre-requisites
+* Install node `sudo apt install nodejs npm`
+* Install neovim `sudo apt-get install neovim`
+* Install git `apt-get install git`
+* Install fira-code `sudo apt install fonts-firacode`
+* Install curl `sudo apt-get install curl`
+
+### Start configurations
+* Clone the repo in `~/.config/`
+* Rename the directory to nvim
+* Change the "source" line in init.vim to the path to init.vim file (~/.config/nvim/.vimrc)
+* Change the directories in .vimrc
+* Install [vim-plug](https://github.com/junegunn/vim-plug)
+* Open nevim and run the command :Plug Install
+* 
+
+
+
+
+
+
+
+
