@@ -25,19 +25,22 @@ run again ``yarn install``
 ## Instuctions for Linux (Debian)
 ### Pre-requisites
 * Install node `sudo apt install nodejs npm`
-* Install neovim `sudo apt-get install neovim`
+* Install neovim `sudo apt-get install neovim` (if want to download other version checkout the [realises](https://github.com/neovim/neovim/releases))
 * Install git `apt-get install git`
 * Install fira-code `sudo apt install fonts-firacode`
 * Install curl `sudo apt-get install curl`
 
 ### Start configurations
+* Install prefered [font](https://github.com/ryanoasis/nerd-fonts#font-installation)
 * Clone the repo in `~/.config/`
-* Rename the directory to nvim
-* Change the "source" line in init.vim to the path to init.vim file (~/.config/nvim/.vimrc)
-* Change the directories in .vimrc
+* Rename the clone repo to nvim
+* Change the "source" line in init.vim to the path to .vimrc file (~/.config/nvim/.vimrc)
+* Change the directories in .vimrc to current path
 * Install [vim-plug](https://github.com/junegunn/vim-plug)
 * Open nevim and run the command :Plug Install
-* 
+
+### Pluggins configuration
+* `:CocInstall coc-prettier`
 
 
 
