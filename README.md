@@ -25,7 +25,7 @@ run again ``yarn install``
 ## Instuctions for Linux (Debian)
 ### Pre-requisites
 * Install node `sudo apt install nodejs npm`
-* Install neovim `sudo apt-get install neovim` (if want to download other version checkout the [realises](https://github.com/neovim/neovim/releases))
+* Install neovim `sudo apt-get install neovim` (if want to download other version checkout the [realeases](https://github.com/neovim/neovim/releases))
 * Install git `apt-get install git`
 * Install fira-code `sudo apt install fonts-firacode`
 * Install curl `sudo apt-get install curl`
