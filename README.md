@@ -7,15 +7,10 @@ My confings to use nvim as text editor
 * Install yarn 
 * run ``pip3 install neovim``
 * run ``choco install neovim``
-
 * Add firacode [NF](https://github.com/ryanoasis/nerd-fonts/blob/master/patched-fonts/FiraCode/Regular/complete/Fira%20Code%20Regular%20Nerd%20Font%20Complete%20Windows%20Compatible.ttf) as font in terminal. 
-
 * clone repo in ``c/:users/(user)/appdata/local``
-
 * change the name of the project to "nvim"
-
 * Install [vim-plug](https://github.com/junegunn/vim-plug)
-	
 * run ``:PlugInstall``
 * open ``.vim/plugged/coc.nvim/`` and run ``yarn install``* 
 	
@@ -37,10 +32,11 @@ run again ``yarn install``
 * Change the "source" line in init.vim to the path to .vimrc file (~/.config/nvim/.vimrc)
 * Change the directories in .vimrc to current path
 * Install [vim-plug](https://github.com/junegunn/vim-plug)
-* Open nevim and run the command :Plug Install
+* Open neovim and run the command `:Plug Install`
 
 ### Pluggins configuration
 * `:CocInstall coc-prettier`
+* `:CocInstall coc-clangd`
 
 
 
