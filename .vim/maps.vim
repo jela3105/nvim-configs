@@ -15,7 +15,6 @@ endif
 nmap <Leader>s <Plug>(easymotion-s2)
 nmap <Leader>w :w<CR>
 nmap <Leader>q :q<CR>
-nmap <Leader>s <Plug>(easymotion-s2)
 nmap <Leader>nt :NERDTreeFind<CR>
 noremap <Leader>vt :botright vnew <Bar> :terminal <CR>
 noremap <Leader>ht :botright new <Bar> :terminal <CR>
