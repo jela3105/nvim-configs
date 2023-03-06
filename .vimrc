@@ -11,10 +11,10 @@ set showmatch
 set sw=2
 set relativenumber
 
-so ~/.config/nvim/.vim/plugins.vim
-so ~/.config/nvim/.vim/plugin-config.vim
-so ~/.config/nvim/.vim/maps.vim
-so ~/.config/nvim/.vim/snippets.vim
+runtime .vim/plugins.vim
+runtime .vim/plugin-config.vim
+runtime .vim/maps.vim
+runtime .vim/snippets.vim
 
 set laststatus=2
 colorscheme gruvbox
