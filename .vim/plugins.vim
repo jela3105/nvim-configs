@@ -1,5 +1,5 @@
 
-call plug#begin('~/AppData/Local/nvim/.vim/plugged')
+call plug#begin('.vim/plugged')
 
 "syntax highlighting and theme 
 Plug 'yggdroot/indentline'
