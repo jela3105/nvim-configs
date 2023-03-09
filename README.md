@@ -32,9 +32,10 @@ run again ``yarn install``
 * Change the "source" line in init.vim to the path to .vimrc file (~/.config/nvim/.vimrc)
 * Change the directories in .vimrc to current path
 * Install [vim-plug](https://github.com/junegunn/vim-plug)
+* Change the path in the [plugins.vim file](https://github.com/jela3105/nvim-configs/blob/master/.vim/plugins.vim) to wherever you want to save the pluggins
 * Open neovim and run the command `:Plug Install`
 
-### Pluggins configuration
+### Pluggins configurationt
 * `:CocInstall coc-prettier`
 * `:CocInstall coc-clangd`
 
